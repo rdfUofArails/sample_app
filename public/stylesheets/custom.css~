@@ -79,7 +79,7 @@ a.signup_button{
 	
 	}
 footer{
-	text-aling: center;
+	text-align: center;
 	margin-top: 10px;
 	width: 710px;
 	margin-left: auto;
