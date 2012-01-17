@@ -21,4 +21,10 @@ describe "LayoutsLinks" do
 		get '/help'
 		response.should have_selector("title", :content => "Help")	
 	end
+
+	it "should have a Help Page at '/sign up'" do
+		get '/signup'
+		response.should have_selector("title", :content => "Sign Up")	
+	end
+	
 end
